@@ -1,13 +1,5 @@
-# glist
-👨‍💻‍ based on golang native container/list, support generics
+package example
 
-# Install
-- go version >= 1.18
-```bash
-go get -u github.com/LPX3F8/glist
-```
-# Example
-```go
 import (
 	"fmt"
 
@@ -32,4 +24,3 @@ func main() {
 		e.Value.Print()
 	}
 }
-```
